@@ -1,0 +1,14 @@
+"","x"
+"(Intercept)",0.145796692660398
+"poly(Salin, 2, raw = TRUE)1",0.148352908450911
+"poly(Salin, 2, raw = TRUE)2",0.0596503797779101
+"poly(Temp, 2, raw = TRUE)1",0.123030974784562
+"poly(Temp, 2, raw = TRUE)2",0.079725065719931
+"poly(Ptot, 2, raw = TRUE)1",0.129298439161725
+"poly(Ptot, 2, raw = TRUE)2",0.136385393824111
+"poly(jday, 2, raw = TRUE)1",0.154096104050635
+"poly(jday, 2, raw = TRUE)2",0.136875554667241
+"poly(Mean_april_temp, 2, raw = TRUE)1",0.139585005888653
+"poly(Mean_april_temp, 2, raw = TRUE)2",0.132425283786494
+"stnDepth",0.0908139472908152
+"year",0.142312643458927

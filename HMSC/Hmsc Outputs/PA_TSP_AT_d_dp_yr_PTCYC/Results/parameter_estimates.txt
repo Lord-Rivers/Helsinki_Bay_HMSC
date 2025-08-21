@@ -1,0 +1,188 @@
+This file contains additional information regarding parameter estimates.
+
+Model Description
+Samples: 0500	Thin: 500	Chains: 4
+
+
+Mean porotion of explained variances
+Variable                            	Mean Prop 	Mean Raw  
+poly(Salin, 2, raw = TRUE)          	2.242211	0.721348
+poly(Temp, 2, raw = TRUE)           	5.325623	1.612101
+poly(Ptot, 2, raw = TRUE)           	6.028226	2.003465
+poly(jday, 2, raw = TRUE)           	9.422642	3.098293
+poly(Mean_april_temp, 2, raw = TRUE)	1.733313	0.585949
+stnDepth                            	1.580359	0.539373
+year                                	21.695770	8.935501
+Random: year                        	41.863984	15.965341
+Random: stn                         	10.107871	3.428112
+
+TjurR2 Values
+Mean:                               	0.368895
+
+Species R2 Values:
+Species                             	R2        
+Achnanthes pusilla                  	0.374623
+Actinastrum hantzschii              	0.402064
+Actinocyclus octonarius var. octonarius	0.303309
+Amylax triacantha                   	0.181144
+Anabaena inaequalis                 	0.194045
+Anabaenopsis elenkinii              	0.448321
+Ankistrodesmus arcuatus             	0.356179
+Apedinella radians                  	0.192450
+Aphanizomenon flosaquae             	0.564021
+Aphanocapsa reinboldii              	0.470500
+Apocalathium malmogiense            	0.286588
+Binuclearia lauterbornii            	0.305339
+Borghiella pascheri                 	0.623472
+Chaetoceros ceratosporus            	0.277298
+Chaetoceros danicus                 	0.331266
+Chaetoceros holsaticus              	0.303386
+Chaetoceros wighamii                	0.245870
+Chlorella chlorelloides             	0.224147
+Coscinodiscus granii                	0.451141
+Cyclotella glomerata f. glomerata   	0.521800
+Cyclotella meneghiniana             	0.365564
+Desmodesmus abundans                	0.354533
+Desmodesmus bicellularis            	0.309443
+Desmodesmus intermedius             	0.264746
+Desmodesmus opoliensis              	0.228763
+Diatoma tenuis                      	0.296795
+Dinobryon faculiferum               	0.277711
+Dinophysis acuminata                	0.554052
+Dinophysis norvegica                	0.171854
+Dolichospermum lemmermannii         	0.226727
+Ebria tripartita                    	0.271885
+Fragilariopsis cylindrus            	0.351078
+Heterocapsa rotundata               	0.713400
+Katablepharis ovalis                	0.308846
+Koliella spiculiformis              	0.410648
+Kryptoperidinium triquetrum         	0.471992
+Licmophora gracilis                 	0.163689
+Merismopedia glauca                 	0.447667
+Merismopedia tranquilla             	0.466837
+Merismopedia warmingiana            	0.333795
+Mesodinium rubrum                   	0.921533
+Micractinium pusillum               	0.305585
+Monoraphidium contortum             	0.147916
+Monoraphidium komarkovae            	0.466286
+Monoraphidium minutum               	0.351167
+Monoraphidium mirabile              	0.303098
+Mucidosphaerium pulchellum          	0.327120
+Nitzschia acicularis                	0.422239
+Nitzschia longissima                	0.296356
+Nodularia spumigena                 	0.236035
+Oblea rotunda                       	0.211059
+Oocystis borgei                     	0.342698
+Oocystis lacustris                  	0.296359
+Pauliella taeniata                  	0.278649
+Peridiniella catenata               	0.428847
+Phalacroma rotundatum               	0.180203
+Plagioselmis prolonga               	0.922715
+Planktolyngbya limnetica            	0.379039
+Planktothrix agardhii               	0.379218
+Protoceratium reticulatum           	0.303358
+Protoperidinium bipes               	0.585379
+Protoperidinium brevipes            	0.280243
+Protoperidinium granii              	0.287578
+Pseudanabaena limnetica             	0.450894
+Pseudopedinella thomsenii           	0.564658
+Raphidocelis danubiana              	0.511890
+Rhizosolenia minima                 	0.224247
+Rhodomonas lacustris                	0.477208
+Rhoicosphenia abbreviata            	0.169590
+Scenedesmus quadricauda             	0.410066
+Skeletonema marinoi                 	0.273805
+Skeletonema subsalsum               	0.338725
+Snowella lacustris                  	0.492178
+Snowella septentrionalis            	0.441338
+Tabularia fasciculata               	0.165764
+Telonema subtile                    	0.419355
+Tetradesmus lagerheimii             	0.407772
+Tetradesmus obliquus                	0.425324
+Thalassiosira baltica               	0.312843
+Thalassiosira guillardii            	0.585006
+Woronichinia compacta               	0.510148
+
+Species plot orders:
+VP Explained Order                  	VP Raw Order                        	Omega Order                         
+Peridiniella catenata               	Peridiniella catenata               	Peridiniella catenata               
+Amylax triacantha                   	Amylax triacantha                   	Amylax triacantha                   
+Protoceratium reticulatum           	Protoceratium reticulatum           	Protoceratium reticulatum           
+Apocalathium malmogiense            	Apocalathium malmogiense            	Apocalathium malmogiense            
+Protoperidinium bipes               	Protoperidinium bipes               	Protoperidinium bipes               
+Protoperidinium brevipes            	Protoperidinium brevipes            	Protoperidinium brevipes            
+Protoperidinium granii              	Protoperidinium granii              	Protoperidinium granii              
+Oblea rotunda                       	Oblea rotunda                       	Oblea rotunda                       
+Heterocapsa rotundata               	Heterocapsa rotundata               	Heterocapsa rotundata               
+Kryptoperidinium triquetrum         	Kryptoperidinium triquetrum         	Kryptoperidinium triquetrum         
+Dinophysis acuminata                	Dinophysis acuminata                	Dinophysis acuminata                
+Dinophysis norvegica                	Dinophysis norvegica                	Dinophysis norvegica                
+Phalacroma rotundatum               	Phalacroma rotundatum               	Phalacroma rotundatum               
+Borghiella pascheri                 	Borghiella pascheri                 	Borghiella pascheri                 
+Plagioselmis prolonga               	Plagioselmis prolonga               	Plagioselmis prolonga               
+Rhodomonas lacustris                	Rhodomonas lacustris                	Rhodomonas lacustris                
+Telonema subtile                    	Telonema subtile                    	Telonema subtile                    
+Thalassiosira baltica               	Thalassiosira baltica               	Thalassiosira baltica               
+Thalassiosira guillardii            	Thalassiosira guillardii            	Thalassiosira guillardii            
+Skeletonema subsalsum               	Skeletonema subsalsum               	Skeletonema subsalsum               
+Skeletonema marinoi                 	Skeletonema marinoi                 	Skeletonema marinoi                 
+Cyclotella meneghiniana             	Cyclotella meneghiniana             	Cyclotella meneghiniana             
+Cyclotella glomerata f. glomerata   	Cyclotella glomerata f. glomerata   	Cyclotella glomerata f. glomerata   
+Chaetoceros danicus                 	Chaetoceros danicus                 	Chaetoceros danicus                 
+Chaetoceros wighamii                	Chaetoceros wighamii                	Chaetoceros wighamii                
+Chaetoceros holsaticus              	Chaetoceros holsaticus              	Chaetoceros holsaticus              
+Chaetoceros ceratosporus            	Chaetoceros ceratosporus            	Chaetoceros ceratosporus            
+Pauliella taeniata                  	Pauliella taeniata                  	Pauliella taeniata                  
+Licmophora gracilis                 	Licmophora gracilis                 	Licmophora gracilis                 
+Nitzschia longissima                	Nitzschia longissima                	Nitzschia longissima                
+Nitzschia acicularis                	Nitzschia acicularis                	Nitzschia acicularis                
+Fragilariopsis cylindrus            	Fragilariopsis cylindrus            	Fragilariopsis cylindrus            
+Tabularia fasciculata               	Tabularia fasciculata               	Tabularia fasciculata               
+Diatoma tenuis                      	Diatoma tenuis                      	Diatoma tenuis                      
+Rhoicosphenia abbreviata            	Rhoicosphenia abbreviata            	Rhoicosphenia abbreviata            
+Actinocyclus octonarius var. octonarius	Actinocyclus octonarius var. octonarius	Actinocyclus octonarius var. octonarius
+Coscinodiscus granii                	Coscinodiscus granii                	Coscinodiscus granii                
+Rhizosolenia minima                 	Rhizosolenia minima                 	Rhizosolenia minima                 
+Achnanthes pusilla                  	Achnanthes pusilla                  	Achnanthes pusilla                  
+Ebria tripartita                    	Ebria tripartita                    	Ebria tripartita                    
+Dinobryon faculiferum               	Dinobryon faculiferum               	Dinobryon faculiferum               
+Apedinella radians                  	Apedinella radians                  	Apedinella radians                  
+Pseudopedinella thomsenii           	Pseudopedinella thomsenii           	Pseudopedinella thomsenii           
+Mesodinium rubrum                   	Mesodinium rubrum                   	Mesodinium rubrum                   
+Katablepharis ovalis                	Katablepharis ovalis                	Katablepharis ovalis                
+Aphanizomenon flosaquae             	Aphanizomenon flosaquae             	Aphanizomenon flosaquae             
+Dolichospermum lemmermannii         	Dolichospermum lemmermannii         	Dolichospermum lemmermannii         
+Anabaena inaequalis                 	Anabaena inaequalis                 	Anabaena inaequalis                 
+Nodularia spumigena                 	Nodularia spumigena                 	Nodularia spumigena                 
+Anabaenopsis elenkinii              	Anabaenopsis elenkinii              	Anabaenopsis elenkinii              
+Pseudanabaena limnetica             	Pseudanabaena limnetica             	Pseudanabaena limnetica             
+Merismopedia tranquilla             	Merismopedia tranquilla             	Merismopedia tranquilla             
+Merismopedia warmingiana            	Merismopedia warmingiana            	Merismopedia warmingiana            
+Merismopedia glauca                 	Merismopedia glauca                 	Merismopedia glauca                 
+Snowella lacustris                  	Snowella lacustris                  	Snowella lacustris                  
+Snowella septentrionalis            	Snowella septentrionalis            	Snowella septentrionalis            
+Aphanocapsa reinboldii              	Aphanocapsa reinboldii              	Aphanocapsa reinboldii              
+Planktothrix agardhii               	Planktothrix agardhii               	Planktothrix agardhii               
+Woronichinia compacta               	Woronichinia compacta               	Woronichinia compacta               
+Planktolyngbya limnetica            	Planktolyngbya limnetica            	Planktolyngbya limnetica            
+Monoraphidium contortum             	Monoraphidium contortum             	Monoraphidium contortum             
+Monoraphidium mirabile              	Monoraphidium mirabile              	Monoraphidium mirabile              
+Monoraphidium minutum               	Monoraphidium minutum               	Monoraphidium minutum               
+Monoraphidium komarkovae            	Monoraphidium komarkovae            	Monoraphidium komarkovae            
+Raphidocelis danubiana              	Raphidocelis danubiana              	Raphidocelis danubiana              
+Ankistrodesmus arcuatus             	Ankistrodesmus arcuatus             	Ankistrodesmus arcuatus             
+Desmodesmus opoliensis              	Desmodesmus opoliensis              	Desmodesmus opoliensis              
+Desmodesmus bicellularis            	Desmodesmus bicellularis            	Desmodesmus bicellularis            
+Desmodesmus intermedius             	Desmodesmus intermedius             	Desmodesmus intermedius             
+Desmodesmus abundans                	Desmodesmus abundans                	Desmodesmus abundans                
+Tetradesmus obliquus                	Tetradesmus obliquus                	Tetradesmus obliquus                
+Tetradesmus lagerheimii             	Tetradesmus lagerheimii             	Tetradesmus lagerheimii             
+Scenedesmus quadricauda             	Scenedesmus quadricauda             	Scenedesmus quadricauda             
+Oocystis borgei                     	Oocystis borgei                     	Oocystis borgei                     
+Oocystis lacustris                  	Oocystis lacustris                  	Oocystis lacustris                  
+Mucidosphaerium pulchellum          	Mucidosphaerium pulchellum          	Mucidosphaerium pulchellum          
+Actinastrum hantzschii              	Actinastrum hantzschii              	Actinastrum hantzschii              
+Micractinium pusillum               	Micractinium pusillum               	Micractinium pusillum               
+Chlorella chlorelloides             	Chlorella chlorelloides             	Chlorella chlorelloides             
+Binuclearia lauterbornii            	Binuclearia lauterbornii            	Binuclearia lauterbornii            
+Koliella spiculiformis              	Koliella spiculiformis              	Koliella spiculiformis              
