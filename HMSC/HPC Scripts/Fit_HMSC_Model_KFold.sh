@@ -1,0 +1,36 @@
+#!/bin/bash
+#SBATCH --job-name=KFolding_fitting
+#SBATCH  -M ukko
+#SBATCH --partition=gpu 
+#SBATCH --mem-per-cpu=4G
+#SBATCH --gpus-per-node=1
+#SBATCH --cpus-per-gp=2
+#SBATCH --constraint=v100 #Restrict this to only running on V100 GPU's because the A100's decrease convergence performence
+#SBATCH --time=28:00:00
+#SBATCH --verbose
+#SBATCH --array=1-8
+#SBATCH --output=R-%x.%A_%a.out
+
+module purge
+module load Python/3.12.3-GCCcore-13.3.0 cuDNN
+source $HOME/myenv/bin/activate
+
+Area=$AREA
+model_name=$NAME
+samples=$SAMP
+thin=$THIN
+chains=1
+divide=3*$samples*$thin; by=2*100; ((verbose=(divide/by)))
+divide=$samples*$thin; by=2; (( transient=(divide+by-1)/by ))
+data_path=$(printf "%s/%s" $Area $model_name)
+#screen_text=$(printf "#######\n Model Run starting\n Area: %s model_name: %s\n Samples: %.4d\n Thining: %.2d Transient steps: %.d\n verbose %.d\n######\n" $Area $model_name $samples $thin $transient $verbose)
+
+input_path=$data_path/$(printf "Temp/temp_samples_%.4d_thin_%.2d_thread_%.1d.rds" $samples $thin $SLURM_ARRAY_TASK_ID)
+output_path=$data_path/$(printf "Temp/Sampled_HPC_samples_%.4d_thin_%.2d_thread_%.1d.rds" $samples $thin $SLURM_ARRAY_TASK_ID)
+
+printf "#####################\nModel Run starting\nArea: %s model_name: %s\nSamples: %.4d\nThining: %.2d Transient steps: %.d\nVerbose %.d\n#####################\n" $Area $model_name $samples $thin $transient $verbose
+echo -e $data_path
+echo -e $input_path
+echo -e $output_path
+
+srun python Gibs_sampling_tensor_flow.py --samples $samples --transient $transient --thin $thin --verbose $verbose --input $input_path --output $output_path
