@@ -1,8 +1,8 @@
 # Read Me
 ## File structure
 These files rely on a set file structure by defualt, as such a working example for the full model has been set up. The file structure used is as follows
--Data
--HMSC
+- Data
+- HMSC
 	- Hmsc outputs
 	  - <Model_Name>
 		- Models
